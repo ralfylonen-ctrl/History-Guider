@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 40px auto;
+  max-width: 800px;
+  padding: 20px;
+}
+
+button {
+  padding: 12px 25px;
+  margin: 10px;
+  background: #0077ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #005fd1;
+}
+
+#temas {
+  margin-top: 20px;
+}
+
+#temas button {
+  display: block;
+  margin: 10px auto;
+  width: 60%;
+}
+
+#resumo {
+  margin-top: 30px;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+#resumo img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+.hidden {
+  display: none;
+}
